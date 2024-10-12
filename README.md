@@ -2,7 +2,7 @@
  * @Author       : WenChan Li
  * @Date         : 2024-03-19 23:41:45
  * @LastEditors  : WenChan Li
- * @LastEditTime : 2024-10-13 02:18:07
+ * @LastEditTime : 2024-10-13 02:32:08
  * @Description  : 
  * Copyright 2024 OBKoro1, All Rights Reserved. 
  * 2024-03-19 23:41:45
@@ -12,7 +12,7 @@
 This is the official PyTorch code for our paper :
 ZSDECNet: A Zero-Shot Deep Learning Framework for Image Exposure Correction
 
-![Network structure diagram](network_structure.pdf)
+![Network structure diagram](network_structure.png)
 
 *Wenchao Li, Shuyuan Wen,Jinhao Zhua, Qiaofeng Oub, Yanchun Guob, Jiabao Chen and Bangshu Xiong*
 
