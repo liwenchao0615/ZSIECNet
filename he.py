@@ -2,7 +2,7 @@
 Author       : WenChan Li
 Date         : 2024-10-06 10:11:52
 LastEditors  : WenChan Li
-LastEditTime : 2024-10-06 10:43:41
+LastEditTime : 2024-10-06 20:02:12
 Description  : HEistogram Equalization RGB imgage
 Copyright 2024 OBKoro1, All Rights Reserved. 
 2024-10-06 10:11:52
@@ -12,7 +12,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # 读取彩色图像
-img = cv2.imread("9.bmp")
+img = cv2.imread("3.bmp")
 
 # 分割通道
 b, g, r = cv2.split(img)
@@ -57,3 +57,4 @@ plt.show()
 
 cv2.imshow("Histogram Equalization", eq_img)
 cv2.waitKey(0)
+cv2.imwrite("3_HE.jpg", eq_img)

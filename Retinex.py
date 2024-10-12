@@ -2,7 +2,7 @@
 Author       : WenChan Li
 Date         : 2024-10-06 11:04:58
 LastEditors  : WenChan Li
-LastEditTime : 2024-10-06 11:32:00
+LastEditTime : 2024-10-06 20:03:59
 Description  : 
 Copyright 2024 OBKoro1, All Rights Reserved. 
 2024-10-06 11:04:58
@@ -52,7 +52,7 @@ def SSR(src_img, sigmaX):
 
 
 if __name__ == '__main__':
-    img_path = './9.bmp'
+    img_path = './3.bmp'
     sigma = 65
     src_img = cv2.imread(img_path)
 
@@ -72,4 +72,4 @@ if __name__ == '__main__':
 
     # print("over")
     # cv2.waitKey(0)
-    cv2.imwrite('result.jpg', result)
+    cv2.imwrite('result3.jpg', result)
